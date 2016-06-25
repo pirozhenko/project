@@ -1,0 +1,65 @@
+.main_picture-one_block {
+	padding: 110px 165px 130px 130px;
+	.picture-block {
+		float: left;
+	}
+	.block_title {
+		position: relative;
+		width: 50%;
+		padding-left: 165px;
+		margin-left: 50%;
+		&:after,
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 40px;
+			height: 40px;
+			border: 1px solid #ff8b38;
+			border-radius: 50%;
+		}
+		&:before {
+			top: 220px;
+			background: url(../img/cloud-up.png)50% 50% no-repeat;
+		}
+		&:after {
+			top: 320px;
+			background: url(../img/cloud-down.png)50% 50% no-repeat;
+		}
+	}
+	&:after {
+		content: '';
+		display: block;
+		height: 0;
+		clear: both;
+	}
+}
+
+.block_title h3,
+.picture-block_left-side h3  {
+	font-size: 2em;
+	position: relative;
+	margin-bottom: 70px;
+}
+.block_title h3:after,
+.picture-block_left-side h3:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -35px;
+	left: 0;
+	border-bottom: 2px solid #ff8b38;
+	width: 65px;
+}
+.block_title h3 + p {
+	margin-bottom: 45px;
+}
+.block_title p,
+.picture-block_left-side p {
+	font-size: 1.4em;
+	color: #86878b;
+}
+.block_title h4,
+.block_title h4 + p {
+	margin-left: 20%;
+}

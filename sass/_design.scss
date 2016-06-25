@@ -1,0 +1,21 @@
+.main_axure-design {
+	padding: 75px 100px 65px;
+	text-align: center;
+	background: url(../img/bg_bottom.jpg) 50% 50% no-repeat rgba(0, 0, 0, .5);
+	background-size: cover;
+	background-blend-mode: darken;
+	h2{
+		color: #fff;
+	}
+	p {
+		color: #fff;
+		margin-bottom: 30px;
+	}
+	> h2:after {
+		border-color: #fff;
+	}
+	.btn {
+		margin-left: 44%;
+	}
+}
+
