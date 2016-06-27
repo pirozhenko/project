@@ -1,19 +1,19 @@
 .main_social-block {
-	padding: 24px 152px;
+	padding: 19px 152px;
 	border-bottom: 1px solid #ccc;
-	box-shadow: 0 2px 5px #ccc;
 
 	h3 {
 		font-size: 2em;
+		letter-spacing: .5px;
 		margin-top: 0;
-		margin-bottom: 15px;
+		margin-bottom: 0;
 		font-weight: bold;
 	}
 
 	.social-block_text {
 		font-size: 1.4em;
-		width: 365px;
 		color: #86876b;
+		margin-top: 3px;
 		margin-bottom: 0;
 	}
 	.social-block_icon {
@@ -26,11 +26,12 @@
 	display: inline-block;
 	width: 55px;
 	height: 50px;
-	margin-left: 50px;
+	margin-left: 43.5px;
 	text-decoration: none;
 	color: #ccc;
-	font-size: 50px;
+	font-size: 4.8em;
 	font-family: "untitled-font-1";
+	transition: color .5s;
 }
 .social-block_icon a:hover:first-of-type,
 .footer_social a:hover:first-of-type {

@@ -1,5 +1,5 @@
 .main_awesome-block {
-	padding: 105px 135px;
+	padding: 99px 147px 90px 149px;
 	text-align: center;
 }
 .main_awesome-block h2,
@@ -12,8 +12,9 @@
 	text-transform: uppercase;
 	font-weight: normal;
 	margin-top: 0;
-	margin-bottom: 60px;
+	margin-bottom: 51px;
 	position: relative;
+	letter-spacing: -.2px;
 }
 .main_awesome-block h2:after,
 .main_price-block > h2:after,
@@ -23,9 +24,9 @@
 	content: '';
 	display: block;
 	position: absolute;
-	bottom: -30px;
+	bottom: -25px;
 	left: 50%;
-	margin-left: -35px;
+	margin-left: -32px;
 	border-bottom: 2px solid #ff8b38;
 	width: 65px;
 }
@@ -37,17 +38,18 @@
 	font-size: 1.4em;
 	color: #86878b;
 }
-.main_awesome-block h3
+.main_awesome-block h3,
 .main_price-block h3 {
 	font-size: 2em;
-	margin-bottom: 30px;
+	letter-spacing: .6px;
+	margin-bottom: 20px;
 }
 .awesome-block_design,
 .awesome-block_keyboard,
 .awesome-block_flash {
 	float: left;
-	margin-top: 175px;
-	margin-right: 25px;
+	margin-top: 139.4px;
+	margin-right: 38px;
 	width: 31%;
 	position: relative;
 }
@@ -57,22 +59,26 @@
 	content: '';
 	position: absolute;
 	display: block;
-	width: 70px;
-	height: 70px;
+	width: 66px;
+	height: 66px;
 	border-radius: 50%;
-	border: 1px solid #ff8b38;
-	top: -75px;
+	border: 2px solid #ff8b38;
+	top: -74px;
 	left: 50%;
-	margin-left: -30px;
+	margin-left: -37px;
+	background-position: 48% 49%;
+	background-repeat: no-repeat;
 }
 .awesome-block_design:after {
-	background: url(../img/lamp.png)50% 50% no-repeat;
+	background-image: url(../img/lamp.png);
 }
 .awesome-block_keyboard:after {
-	background: url(../img/keyboard.png)50% 50% no-repeat;
+	margin-left: -35px;
+	background-image: url(../img/keyboard.png);
 }
 .awesome-block_flash:after {
-	background: url(../img/light.png)50% 50% no-repeat;
+	margin-left: -33px;
+	background-image: url(../img/light.png);
 }
 .awesome-block_flash {
 	margin-right: 0;

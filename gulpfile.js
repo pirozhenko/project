@@ -9,6 +9,7 @@ gulp.task('sass', function () {
   return gulp.src('sass/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
+        // .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./css'))
         .pipe(browser.stream({match: '**/*.css'}));
@@ -22,6 +23,15 @@ gulp.task('serve', ['sass'], function(){
         }
     });
 });
+
+// gulp.task('css', function () {
+//     var processors = [
+//         autoprefixer({browsers: ['last 3 version']}),
+//     ];
+//     return gulp.src('./src/*.css')
+//         .pipe(postcss(processors));
+// });
+
 // Runs all of the above tasks and then waits for files to change
 gulp.task('default', ['serve'], function() {
   gulp.watch(['sass/**/*.scss'], ['sass']);

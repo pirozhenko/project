@@ -1,30 +1,41 @@
 .main_picture-one_block {
-	padding: 110px 165px 130px 130px;
+	padding: 97px 165px 93px 103px;
 	.picture-block {
 		float: left;
 	}
 	.block_title {
 		position: relative;
 		width: 50%;
-		padding-left: 165px;
+		padding-left: 130px;
 		margin-left: 50%;
+		margin-top: -15px;
 		&:after,
 		&:before {
 			content: '';
 			position: absolute;
 			display: block;
-			width: 40px;
-			height: 40px;
-			border: 1px solid #ff8b38;
+			width: 36px;
+			height: 36px;
+			border: 2px solid #ff8b38;
 			border-radius: 50%;
+			left: 130px;
 		}
 		&:before {
-			top: 220px;
+			top: 184px;
 			background: url(../img/cloud-up.png)50% 50% no-repeat;
 		}
 		&:after {
-			top: 320px;
+			top: 282px;
 			background: url(../img/cloud-down.png)50% 50% no-repeat;
+		}
+		h4 {
+			font-size: 1.4em;
+			font-weight: normal;
+			margin-bottom: -11px;
+			letter-spacing: .4px;
+		}
+		h4 + p {
+			margin-bottom: 38px;
 		}
 	}
 	&:after {
@@ -39,20 +50,21 @@
 .picture-block_left-side h3  {
 	font-size: 2em;
 	position: relative;
-	margin-bottom: 70px;
+	margin-bottom: 54px;
+	letter-spacing: .6px;
 }
 .block_title h3:after,
 .picture-block_left-side h3:after {
 	content: '';
 	display: block;
 	position: absolute;
-	bottom: -35px;
-	left: 0;
+	bottom: -26.8px;
+	left: 1px;
 	border-bottom: 2px solid #ff8b38;
-	width: 65px;
+	width: 64px;
 }
 .block_title h3 + p {
-	margin-bottom: 45px;
+	margin-bottom: 43px;
 }
 .block_title p,
 .picture-block_left-side p {
@@ -61,5 +73,5 @@
 }
 .block_title h4,
 .block_title h4 + p {
-	margin-left: 20%;
+	margin-left: 16%;
 }
