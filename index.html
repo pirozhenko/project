@@ -9,38 +9,52 @@
 	<link rel="stylesheet" href='css/style.css'>
 </head>
 <body>
-	<div class="header">
-		<div class="header_logo"><img src="img/logo-1.png" alt="logo"></div>
-		<div class="header_nav-bar">
-			<a href="#">Features</a>
-			<a href="#">About</a>
-			<a href="#">Pricing</a>
-			<a href="#">Reviews</a>
-			<a href="#">Contact</a>
+	<div class="c-header c--clear"><!-- c-header -->
+		<div class="wrap">
+			<div class="c-header__logo c--left">
+				<img src="img/logo-1.png" alt="logo">
+			</div>
+			<nav class="c-header__nav c--right">
+				<a href="#">Features</a>
+				<a href="#">About</a>
+				<a href="#">Pricing</a>
+				<a href="#">Reviews</a>
+				<a href="#">Contact</a>
+			</nav>
 		</div>
-	</div>
+	</div><!-- end c-header -->
 
-	<div class="main">
+	<div class="c-registration c--clear"><!-- c-registration -->
 
-		<div class="main_reg-block">
+		<div class="wrap">
 
-			<div class="reg-block_logo"><img src="img/logo-big.png" alt="logo"></div>
-			<h1>modern axure template <br> for beautiful prototypes</h1>
-			<div class="reg-block_line"></div>
-			<p class="reg-block_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-			<div class="btn">Download</div>
-
-			<div class="reg-block_reg-form">
-				<div class="reg-form_top"><h2>try your <span>free</span> trial today</h2></div>
+			<div class="c-registration__form c--right">
+				<div class="c-registration__form-header">
+					<h2>try your <span>free</span> trial today</h2>
+				</div>
 				<input type="text" placeholder="Name">
 				<input type="email" placeholder="Email">
 				<input type="password" placeholder="Password ">
-				<div class="reg-form_button"><p>get started</p></div>
+				<button class="btn c--bg__orange"><p>get started</p></button>
 			</div>
-		</div>
 
-		<div class="main_social-block">
-			<div class="social-block_icon">
+			<div class="c-registration__logo">
+				<img src="img/logo-big.png" alt="logo">
+			</div>
+
+			<h1>modern axure template <br> for beautiful prototypes</h1>
+			<hr class="c--margin__left ">
+
+			<p class="c-registration__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+
+			<button class="btn c--bg__transparent">Download</button>
+			
+		</div>
+	</div><!-- end c-registration -->
+
+	<div class="c-social c--clear"><!-- c-social -->
+		<div class="wrap">
+			<div class="c-social__icon c--right">
 				<a href=''>a</a>
 				<a href=''>b</a>
 				<a href=''>c</a>
@@ -51,50 +65,57 @@
 			</div>
 
 			<h3>Social Media</h3>
-			<p class="social-block_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eusmod bibendum laureet.</p>
+			<p class="c-social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eusmod bibendum laureet.</p>
 		</div>
+	</div><!-- end c-social -->
 
-		<div class="main_tabs-block">
+	<div class="c-tabs"><!-- c-tabs -->
 
-		   <div class="tab">
-		       <input type="radio" id="tab-1" name="tab-group-1" checked>
-		       <label for="tab-1">tab 1</label>
-		       <div class="tab_content">
-		           <h3>Tabs with soft transitioning effect.</h3>
-		           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur magni autem totam officiis vel molestiae sunt, cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!</p>
-		           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos non facilis culpa libero aperiam!</p>
-		           <div class="btn">Download</div>
-		       </div>
-		   </div>
+	   <div class="wrap">
+		   	<div class="c-tabs__tab">
+		   	    <input type="radio" id="tab-1" name="tab-group-1" checked>
+		   	    <label for="tab-1">tab 1</label>
+		   	    <div class="tab_content">
+		   	        <h3>Tabs with soft transitioning effect.</h3>
+		   	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur magni autem totam officiis vel molestiae sunt, cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!</p>
+		   	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos non facilis culpa libero aperiam!</p>
+		   	        <button class="btn c--bg__orange">Download</button>
+		   	    </div>
+		   	</div>
+		   	
+		   	<div class="c-tabs__tab">
+		   	    <input type="radio" id="tab-2" name="tab-group-1">
+		   	    <label for="tab-2">tab 2</label>
+		   	    <div class="tab_content">
+		   	        <h3>Tabs with soft transitioning effect.</h3>
+		   	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur magni autem totam officiis vel molestiae sunt, cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!</p>
+		   	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos non facilis culpa libero aperiam!</p>
+		   	        <button class="btn c--bg__orange">Download</button>
+		   	    </div>
+		   	</div>
+		   	
+		   	 <div class="c-tabs__tab">
+		   	    <input type="radio" id="tab-3" name="tab-group-1">
+		   	    <label for="tab-3">tab 3</label>
+		   	    <div class="tab_content">
+		   	        <h3>Tabs with soft transitioning effect.</h3>
+		   	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur magni autem totam officiis vel molestiae sunt, cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!</p>
+		   	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos non facilis culpa libero aperiam!</p>
+		   	        <button class="btn c--bg__orange">Download</button>
+		   	    </div>
+		   	</div>
+	   </div>
 
-		   <div class="tab">
-		       <input type="radio" id="tab-2" name="tab-group-1">
-		       <label for="tab-2">tab 2</label>
-		       <div class="tab_content">
-		           <h3>Tabs with soft transitioning effect.</h3>
-		           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur magni autem totam officiis vel molestiae sunt, cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!</p>
-		           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos non facilis culpa libero aperiam!</p>
-		           <div class="btn">Download</div>
-		       </div>
-		   </div>
+	</div><!-- end c-tabs -->
 
-		    <div class="tab">
-		       <input type="radio" id="tab-3" name="tab-group-1">
-		       <label for="tab-3">tab 3</label>
-		       <div class="tab_content">
-		           <h3>Tabs with soft transitioning effect.</h3>
-		           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur magni autem totam officiis vel molestiae sunt, cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!cupiditate quos eum sit ab quidem aliquid!</p>
-		           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos non facilis culpa libero aperiam!</p>
-		           <div class="btn">Download</div>
-		       </div>
-		   </div>
-
-		</div>
-
-		<div class="main_picture-one_block">
-			<div class="picture-block"><img src="img/city_left.jpg" alt=""></div>
-			<div class="block_title">
+	<div class="c-picture__first  c--clear"><!-- c-picture__first -->
+		<div class="wrap">
+			<div class="c-picture__block c--left">
+				<img src="img/city_left.jpg" alt="">
+			</div>
+			<div class="c-picture__title">
 				<h3>Sub list section</h3>
+				<hr class="c--bg__orange c--margin__left ">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea obcaecati unde odio eaque, dolores natus labore dolor maiores sequi optio non nisi enim hic veritatis aut illum culpa dolorum sed.</p>
 				<h4>Title</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat mollitia ducimus.</p>
@@ -102,50 +123,58 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ab, ducimus ipsa suscipit magni.</p>
 			</div>
 		</div>
+	</div><!-- end c-picture__first -->
 
-		<div class="main_picture-two_block">
-			<div class="picture-block"><img src="img/city_righ.jpg" alt=""></div>
-			<div class="picture-block_left-side">
+	<div class="c-picture__second c--clear"><!-- c-picture__second -->
+		<div class="wrap">
+			<div class="c-picture__block c--right">
+				<img src="img/city_righ.jpg" alt="">
+			</div>
+			<div class="c-picture__left">
 				<h3>Standard Picture Section</h3>
+				<hr class="c--bg__orange c--margin__left" >
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fuga ex quaerat reiciendis neque cupiditate beatae delectus eius quas hic nobis architecto, repudiandae eveniet consequatur. Hic ipsa enim, nobis asperiores.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ex dicta minima, ut totam officia.</p>
 			</div>
 		</div>
+	</div><!-- end c-picture__second -->
 
-		<div class="main_awesome-block">
+	<div class="c-awesome c--clear"><!-- c-awesome -->
+		<div class="wrap">
 			<h2>why this is awesome</h2>
+			<hr class="c--bg__orange">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			<div class="awesome-block_design">
+			<div class="c-awesome__design c--left">
 				<h3>Thoughtful Design</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium dicta quisquam at modi dolore nihil, et porro voluptatum cum.</p>
 			</div>
-
-			<div class="awesome-block_keyboard">
+			<div class="c-awesome__keyboard c--left">
 				<h3>Well Crafted</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium dicta quisquam at modi dolore nihil, et porro voluptatum cum.</p>
 			</div>
-
-			<div class="awesome-block_flash">
+			<div class="c-awesome__flash c--left">
 				<h3>Easy to Customize</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium dicta quisquam at modi dolore nihil, et porro voluptatum cum.</p>
 			</div>
 		</div>
+	</div><!-- end c-awesome -->
 
-		<div class="main_price-block">
+	<div class="c-pricing"><!-- c-pricing -->
+		<div class="wrap">
 			<h2>pricing options</h2>
+			<hr class="c--margin___left c--bg__orange">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-			<div class="price-block_basic">
-				<div class="title">
+			<div class="c-pricing-basic">
+				<div class="c-pricing-basic__title">
 					<h3>basic</h3>
-					<div class="title_price">
+					<div class="c-pricing-basic__price">
 						<h2>
 							$<span>0</span>
 						</h2>
 					</div>
 					<h4>free for life</h4>
 				</div>
-
 				<ul>
 					<li>1 gb of space</li>
 					<li>10 gb of bandwidth</li>
@@ -156,20 +185,19 @@
 				</ul>
 			</div>
 
-			<div class="price-block_prof">
-				<div class="title">
+			<div class="c-pricing-prof">
+				<div class="c-pricing-prof__title">
 					<h3>professional</h3>
-					<div class="title_price">
+					<div class="c-pricing-prof__price">
 						<h2>
 							$<span>19</span>
 						</h2>
 					</div>
 					<h4>monthly payment</h4>
-					<div class="title_price-footer">
+					<div class="c-pricing-prof__footer">
 						<h3>our most popular</h3>
 					</div>
 				</div>
-
 				<ul>
 					<li>5 gb of space</li>
 					<li>50 gb of bandwidth</li>
@@ -180,17 +208,16 @@
 				</ul>
 			</div>
 
-			<div class="price-block_enterprice">
-				<div class="title">
+			<div class="c-pricing-enterprice">
+				<div class="c-pricing-enterprice__title">
 					<h3>enterprise</h3>
-					<div class="title_price">
+					<div class="c-pricing-enterprice__price">
 						<h2>
 							$<span>70</span>
 						</h2>
 					</div>
 					<h4>monthly payment</h4>
 				</div>
-
 				<ul>
 					<li>unlimited spaced</li>
 					<li>unlimited bandwidth</li>
@@ -202,70 +229,79 @@
 			</div>
 
 		</div>
-		<div class="main_customers-koment">
+
+	</div><!-- end c-pricing -->
+
+	<div class="c-coment"><!-- c-coment -->
+		<div class="wrap">
 			<h2>what our customers are saying</h2>
+			<hr class="c--bg__orange">
 			<p>Lorem ipsum dolor sit amet, consectetur adepiscing elit.</p>
-			<div class="customers-koments">
-				<div class="koment-left">
-					<div class="koments-user">
+				<div class="c-coment-left">
+					<div class="c-coment-left__coment">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quibusdam animi quia soluta numquam ut explicabo doloremque maiores neque nemo.</p>
 					</div>
-					<div class="user_foto"></div>
-					<div class="user_title">
+					<div class="c-coment-left__foto"></div>
+					<div class="c-coment-left__title">
 						<h3>Jeremy H.</h3>
 						<p>Manager</p>
 					</div>
 				</div>
-				<div class="koment-middle">
-					<div class="koments-user">
+				<div class="c-coment-middle">
+					<div class="c-coment-middle__coment">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quibusdam animi quia soluta numquam ut explicabo doloremque maiores neque nemo.</p>
 					</div>
-					<div class="user_foto"></div>
-					<div class="user_title">
+					<div class="c-coment-middle__foto"></div>
+					<div class="c-coment-middle__title">
 						<h3>John S.</h3>
 						<p>Freelancer</p>
 					</div>
 				</div>
-				<div class="koment-right">
-					<div class="koments-user">
+				<div class="c-coment-right">
+					<div class="c-coment-right__coment">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quibusdam animi quia soluta numquam ut explicabo doloremque maiores neque nemo.</p>
 					</div>
-					<div class="user_foto"></div>
-					<div class="user_title">
+					<div class="c-coment-right__foto"></div>
+					<div class="c-coment-right__title">
 						<h3>Susan W.</h3>
 						<p>Photographer</p>
 					</div>
 				</div>
-			</div>
 		</div>
+	</div><!-- c-coment -->
 
-		<div class="main_axure-design">
+	<div class="c-axure"><!-- c-coment -->
+		<div class="wrap">
 			<h2>stylish axure design</h2>
+			<hr>
 			<p>Use the section you need, remove the ones you don't. Create gorgeous prototypes faster than ever.</p>
 			<div class="btn">Download</div>
 		</div>
+	</div>
 
-		<div class="main_contact-block">
+	<div class="c-contact">
+		<div class="wrap">
 			<h2>contact us</h2>
+			<hr class="c--bg__orange">
 			<p>Lorem ipsum dolor sit amet, consectetus adipiscing elit.</p>
-
-			<div class="contact_form">
-				<div class="form_left">
+			
+			<div class="c-contact-form c--clear">
+				<div class="c-contact-form__left c--left">
 					<input type="text" placeholder="Name">
 					<input type="email" placeholder="Email">
 					<input type="text" placeholder="Subject">
 				</div>
-				<div class="form_right">
+				<div class="c-contact-form__right">
 					<textarea placeholder="Message"></textarea>
 				</div>
 			</div>
-
-			<div class="btn">Send Message</div>
+			
+			<button class="btn c--bg__orange">Send Message</button>
 		</div>
 	</div>
 
-	<div class="footer">
-		<div class="footer_social">
+	<div class="c-footer">
+		<div class="c-footer_social">
 			<a href=''>a</a>
 			<a href=''>b</a>
 			<a href=''>c</a>

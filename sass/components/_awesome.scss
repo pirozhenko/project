@@ -1,0 +1,70 @@
+.c-awesome {
+	padding: 99px 0 90px;
+	text-align: center;
+}
+.c-awesome h2,
+.c-pricing h2,
+.c-coment h2,
+.c-axure h2,
+.c-contact h2 {
+	font-size: 3.6em;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 51px;
+	position: relative;
+	letter-spacing: -.2px;
+}
+.c-awesome p,
+.c-pricing p,
+.c-coment p,
+.c-axure p,
+.c-contact p {
+	font-size: 1.4em;
+	color: #86878b;
+}
+.c-awesome h3,
+.c-pricing h3 {
+	font-size: 2em;
+	letter-spacing: .6px;
+	margin-bottom: 20px;
+}
+.c-awesome__design,
+.c-awesome__keyboard,
+.c-awesome__flash {
+	margin-top: 139.4px;
+	padding: 0 10px;
+	width: 33.3%;
+	position: relative;
+}
+.c-awesome__design:after,
+.c-awesome__keyboard:after,
+.c-awesome__flash:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	border: 2px solid #ff8b38;
+	top: -74px;
+	left: 50%;
+	margin-left: -37px;
+	background-position: 48% 49%;
+	background-repeat: no-repeat;
+}
+.c-awesome__design:after {
+	background-image: url(../img/lamp.png);
+}
+.c-awesome__keyboard:after {
+	margin-left: -35px;
+	background-image: url(../img/keyboard.png);
+}
+.c-awesome__flash:after {
+	margin-left: -33px;
+	background-image: url(../img/light.png);
+}
+.c-awesome___flash {
+	margin-right: 0;
+}

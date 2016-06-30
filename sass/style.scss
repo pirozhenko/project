@@ -1,23 +1,15 @@
-* {
-	box-sizing: border-box;
-}
-body {
-	font-size: 62.5%;
-	width: 1400px;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	margin: 0 auto;
-}
-@import 'font';
-@import 'btn';
-@import 'header';
-@import 'reg';
-@import 'social';
-@import 'tabs';
-@import 'leftPic';
-@import 'rightPic';
-@import 'awesome';
-@import 'pricing';
-@import 'koment';
-@import 'design';
-@import 'contact';
-@import 'footer';
+@import 'components/general';
+@import 'components/font';
+@import 'components/btn';
+@import 'components/header';
+@import 'components/registration';
+@import 'components/social';
+@import 'components/tabs';
+@import 'components/pictureFirst';
+@import 'components/_pictureSecond';
+@import 'components/awesome';
+@import 'components/pricing';
+@import 'components/coment';
+@import 'components/axure';
+@import 'components/contact';
+@import 'components/footer';

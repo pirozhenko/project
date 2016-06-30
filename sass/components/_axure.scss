@@ -1,0 +1,21 @@
+.c-axure {
+	padding: 65px 0;
+	text-align: center;
+	background: url(../img/bg_bottom.jpg) top center no-repeat rgba(0, 0, 0, .6);
+	background-size: cover;
+	background-blend-mode: darken;
+	h2{
+		color: #fff;
+		letter-spacing: 0;
+		margin-bottom: 55px;
+	}
+	p {
+		font-size: 1.58em;
+		color: #d4d4d4;
+		margin-bottom: 30px;
+	}
+	h2:after {
+		border-color: #fff;
+	}
+}
+
