@@ -355,22 +355,21 @@ input:focus {
   margin-left: 16%; }
 
 .c-picture__second {
-  padding: 83px 0 36px;
+  padding: 83px 0 38px;
   background: #f5f5f5; }
   .c-picture__second .c-picture__left {
     width: 41%; }
     .c-picture__second .c-picture__left h3 {
-      margin-bottom: 51px;
+      margin-bottom: 25px;
       letter-spacing: .8px; }
-      .c-picture__second .c-picture__left h3:after {
-        bottom: -25px; }
     .c-picture__second .c-picture__left p:first-of-type {
+      margin-top: 25px;
       margin-bottom: 25px; }
   .c-picture__second .c-picture__block {
     margin-top: -22px; }
 
 .c-awesome {
-  padding: 99px 0 90px;
+  padding: 99px 0 98px;
   text-align: center; }
 
 .c-awesome h2,
@@ -383,7 +382,7 @@ input:focus {
   text-transform: uppercase;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 51px;
+  margin-bottom: 25px;
   position: relative;
   letter-spacing: -.2px; }
 
@@ -404,7 +403,7 @@ input:focus {
 .c-awesome__design,
 .c-awesome__keyboard,
 .c-awesome__flash {
-  margin-top: 139.4px;
+  margin-top: 140px;
   padding: 0 10px;
   width: 33.3%;
   position: relative; }
@@ -440,7 +439,7 @@ input:focus {
   margin-right: 0; }
 
 .c-pricing {
-  padding: 100px 96px;
+  padding: 100px 0 105px;
   background: #f5f5f5;
   text-align: center;
   vertical-align: bottom; }
@@ -452,7 +451,6 @@ input:focus {
     text-transform: uppercase;
     font-weight: normal;
     margin-top: 0;
-    margin-bottom: 50px;
     position: relative; }
   .c-pricing p {
     margin-bottom: 80px; }
@@ -541,71 +539,48 @@ input:focus {
     text-transform: capitalize; }
 
 .c-coment {
-  padding: 100px 0;
+  padding: 100px 0 97px;
   text-align: center; }
   .c-coment h2 {
     letter-spacing: .1px; }
-  .c-coment h2 + p {
-    margin-bottom: 55px; }
   .c-coment .c-coment-left,
   .c-coment .c-coment-middle,
   .c-coment .c-coment-right {
+    margin-top: 50px;
     display: inline-block;
     width: 25.6%;
     margin-right: 120px;
     position: relative; }
-    .c-coment .c-coment-left .c-coment-left__foto,
-    .c-coment .c-coment-left .c-coment-middle__foto,
-    .c-coment .c-coment-left .c-coment-right__foto,
-    .c-coment .c-coment-middle .c-coment-left__foto,
-    .c-coment .c-coment-middle .c-coment-middle__foto,
-    .c-coment .c-coment-middle .c-coment-right__foto,
-    .c-coment .c-coment-right .c-coment-left__foto,
-    .c-coment .c-coment-right .c-coment-middle__foto,
-    .c-coment .c-coment-right .c-coment-right__foto {
-      width: 70px;
-      height: 70px;
-      margin-top: 22px;
-      position: absolute;
-      border-radius: 50%;
-      background: url(../img/face.jpg) 50% 50% no-repeat; }
-    .c-coment .c-coment-left .c-coment-left__title,
-    .c-coment .c-coment-left .c-coment-middle__title,
-    .c-coment .c-coment-left .c-coment-right__title,
-    .c-coment .c-coment-middle .c-coment-left__title,
-    .c-coment .c-coment-middle .c-coment-middle__title,
-    .c-coment .c-coment-middle .c-coment-right__title,
-    .c-coment .c-coment-right .c-coment-left__title,
-    .c-coment .c-coment-right .c-coment-middle__title,
-    .c-coment .c-coment-right .c-coment-right__title {
-      margin-top: 34px;
-      margin-left: 85px;
-      text-align: left; }
-      .c-coment .c-coment-left .c-coment-left__title h3,
-      .c-coment .c-coment-left .c-coment-middle__title h3,
-      .c-coment .c-coment-left .c-coment-right__title h3,
-      .c-coment .c-coment-middle .c-coment-left__title h3,
-      .c-coment .c-coment-middle .c-coment-middle__title h3,
-      .c-coment .c-coment-middle .c-coment-right__title h3,
-      .c-coment .c-coment-right .c-coment-left__title h3,
-      .c-coment .c-coment-right .c-coment-middle__title h3,
-      .c-coment .c-coment-right .c-coment-right__title h3 {
-        font-size: 2em;
-        margin-bottom: 0;
-        letter-spacing: .5px; }
-      .c-coment .c-coment-left .c-coment-left__title p,
-      .c-coment .c-coment-left .c-coment-middle__title p,
-      .c-coment .c-coment-left .c-coment-right__title p,
-      .c-coment .c-coment-middle .c-coment-left__title p,
-      .c-coment .c-coment-middle .c-coment-middle__title p,
-      .c-coment .c-coment-middle .c-coment-right__title p,
-      .c-coment .c-coment-right .c-coment-left__title p,
-      .c-coment .c-coment-right .c-coment-middle__title p,
-      .c-coment .c-coment-right .c-coment-right__title p {
-        margin-top: 0;
-        margin-left: -2px; }
   .c-coment .c-coment-right {
     margin-right: 0; }
+
+.c-coment-left__foto,
+.c-coment-middle__foto,
+.c-coment-right__foto {
+  width: 70px;
+  height: 70px;
+  margin-top: 22px;
+  position: absolute;
+  border-radius: 50%;
+  background: url(../img/face.jpg) 50% 50% no-repeat; }
+
+.c-coment-left__title,
+.c-coment-middle__title,
+.c-coment-right__title {
+  margin-top: 34px;
+  margin-left: 85px;
+  text-align: left; }
+  .c-coment-left__title h3,
+  .c-coment-middle__title h3,
+  .c-coment-right__title h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+    letter-spacing: .5px; }
+  .c-coment-left__title p,
+  .c-coment-middle__title p,
+  .c-coment-right__title p {
+    margin-top: 0;
+    margin-left: -2px; }
 
 .c-coment-left__coment,
 .c-coment-middle__coment,
@@ -638,14 +613,11 @@ input:focus {
   background-blend-mode: darken; }
   .c-axure h2 {
     color: #fff;
-    letter-spacing: 0;
-    margin-bottom: 55px; }
+    letter-spacing: 0; }
   .c-axure p {
     font-size: 1.58em;
     color: #d4d4d4;
-    margin-bottom: 30px; }
-  .c-axure h2:after {
-    border-color: #fff; }
+    margin-bottom: 39px; }
 
 .c-contact {
   padding: 99px 0 83px;
@@ -677,7 +649,7 @@ input:focus {
     padding: 12px 22px;
     border: none;
     box-shadow: 0 1px 2px #ccc;
-    margin-top: 40px; }
+    margin-top: 49px; }
     .c-contact .btn:hover {
       background: #000;
       box-shadow: inset 0 0 10px #fff; }
@@ -695,7 +667,7 @@ input:focus {
     font-size: 25px;
     margin-left: 0;
     margin-right: 23px; }
-  .c-footer p {
+  .c-footer small {
     margin-top: 6px;
     font-size: 1.1em;
     letter-spacing: .5px; }
